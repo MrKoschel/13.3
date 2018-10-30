@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>13.3a</title>
+
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <script src='js/scripts.js'></script> 
+  
+</head>
+
+<body>
+
+  <div>
+  <button class="button-style button-new" id="new-game">New game</button>
+</div>
+<br>
+<div class="buttons">
+  <div>
+    <button class="disabled button-style player-move" id="button1" data-move="Paper">Paper</button>
+  </div>
+  <div>
+    <button class="disabled button-style player-move" id="button2" data-move="Rock">Rock</button>
+  </div>
+  <div>
+    <button class="disabled button-style player-move" id="button3" data-move="Scissors">Scissors</button>
+  </div>
+</div>
+<br>
+<div class="text" id="output"></div>
+<br>
+<div class="text" id="result"></div>
+<br>
+
+<div class="overlay" id="modal-overlay">
+  <div class="modal" id="modal-one">
+    <a href="#" class="close">x</a>
+    <header>Game over</header><br>
+    <div class="text" id="round-count"></div><br>
+    <table id="modal-content" class="content">
+      <thead>
+        <td>Round </td>
+        <td> Human played </td>
+        <td> PC played </td>
+        <td> Round winner </td>
+        <td> Scores </td>
+      </thead>
+      <tbody id="modal-results"></tbody>
+    </table>
+  </div>
+</div>
+  
+  
+
+    <script  src="js/scripts.js"></script>
+
+
+
+
+</body>
+
+</html>
